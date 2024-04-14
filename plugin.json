@@ -1,7 +1,11 @@
 {
   "id": "tetra_libs",
   "weight": 0,
-  "minversion": 2023336712,
+  "supportedversions": [
+    2023336712,
+    2023449117,
+    2023452316
+  ],
   "info": {
     "name": "Tetra Libs",
         "author": "Blackknight",

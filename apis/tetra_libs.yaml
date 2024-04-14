@@ -1,0 +1,14 @@
+forge-1.20.1:
+  gradle: |
+    repositories {
+    maven {
+        url "https://cursemaven.com"
+      }
+    }
+      
+      dependencies {
+        implementation fg.deobf("curse.maven:tetra-libs-994089:5259252")
+      }
+  update_files:
+    - ~
+name: "Tetra Libs"

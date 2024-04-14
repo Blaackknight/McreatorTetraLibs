@@ -1,0 +1,1 @@
+RandomEnchantment.apply(${input$item}, ${input$verif});

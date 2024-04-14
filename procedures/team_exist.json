@@ -1,0 +1,34 @@
+{
+  "type": "team_exist",
+  "message0": "If team %1 %2 exist",
+  "args0": [
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "input_value",
+      "name": "team_name",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": 290,
+  "tooltip": "Return if team exist",
+  "helpUrl": "",
+  "mcreator": {
+    "toolbox_id": "tetra_libs",
+    "toolbox_init": [
+      "<value name=\"team_name\"><block type=\"text\"><field name=\"TEXT\">team name</field></block></value>"
+    ],
+    "inputs": [
+      "team_name"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

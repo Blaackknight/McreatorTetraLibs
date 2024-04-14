@@ -1,0 +1,8 @@
+{
+  "tetralibs_plugin": {
+    "latest": "0.0.4",
+    "changes": [
+      "Support for MCreator 2024.1"
+    ]
+  }
+}
